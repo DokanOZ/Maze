@@ -32,10 +32,10 @@ namespace Scene
                     break;
             }
 
-            //if(InSight(Sight, x, y) is false)
-            //{
-            //    tile.Fill = new SolidColorBrush(Colors.Black);
-            //}
+            if(InSight(Sight, x, y) is false)
+            {
+                tile.Fill = new SolidColorBrush(Colors.Black);
+            }
 
             return tile;
         }
